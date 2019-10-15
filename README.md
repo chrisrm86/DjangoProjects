@@ -3,5 +3,5 @@
 <ui>
   <li>Personal web</li>
   <li>Enterprise web</li>
-  <li>Web Playground</li>
+  <li>Playground web</li>
 </ui>
