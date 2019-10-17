@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Web personal</title>
-</head>
-<body>
-	{% extends 'core/base.html' %}
-	{% block content %}
-	
-	<h2>Bienvenidos</h2>
-	<p>Esto es la portada</p>
+{% extends 'core/base.html' %}
 
-	{% endblock %}
-</body>
-</html>
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+	<h1>Juan Pérez</h1>
+	<span class="subheading">Ingeniero Industrial</span>
+{% endblock %}
+
+{% block content %} 
+<div class="row">
+</div>
+{% endblock %}
+
