@@ -23,7 +23,7 @@ class Post(models.Model):
     published = models.DateTimeField(default=now, verbose_name='Fecha de publicacion')
     image = models.ImageField(upload_to='blog', null=True, blank=True, verbose_name='Imagen')
     author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='Autor')
-    categories = models.ManyToManyField(Category, verbose_name='Categorias')
+    categories = models.ManyToManyField(Category, verbose_name='Categorias', related_name='get_posts')
     created = models.DateTimeField(auto_now_add=True, verbose_name='Fecha de creacion')
     updated = models.DateTimeField(auto_now=True, verbose_name='Fecha de edicion')
 
