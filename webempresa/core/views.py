@@ -19,5 +19,5 @@ def contact(request):
 #def blog(request):
 #    return render(request, 'blog/blog.html')
 
-def sample(request):
-    return render(request, 'core/sample.html')
+#def sample(request):
+#    return render(request, 'core/sample.html')
