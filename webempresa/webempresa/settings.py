@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'services.apps.ServicesConfig',
     'social.apps.SocialConfig',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -65,6 +66,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'social.processors.ctx_dict',
@@ -128,3 +130,15 @@ STATIC_URL = '/static/'
 # Media config
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Ckeditor
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink']
+        ]
+    }
+}
