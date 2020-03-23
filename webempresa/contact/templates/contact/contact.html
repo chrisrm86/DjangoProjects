@@ -22,7 +22,7 @@
 
             {% endif %}
 
-            <form action="" method="POST">
+             <!-- <form action="" method="POST">
               {% csrf_token %}
 
               <table>
@@ -30,34 +30,42 @@
               </table>
 
               <input type="submit" value="Enviar" />
-            </form>
-              <!--
-            <form>
+            </form> -->
+
+            <form action="" method="POST">
+                {% csrf_token %}
                 <div class="form-group">
                     <label>Nombre *</label>
                     <div class="input-group">
-                        <input type="text" class="form-control">
+                        <!--<input type="text" class="form-control"> -->
+                      {{form.name}}
                     </div>
+                    {{form.name.errors}}
                 </div>
                 <div class="form-group">
                     <label>Email *</label>
                     <div class="input-group">
-                        <input type="text" class="form-control">
+                        <!-- <input type="text" class="form-control"> -->
+                      {{form.email}}
                     </div>
-                    <ul class="errorlist">
+                    {{form.email.errors}}
+                    <!-- <ul class="errorlist">
                         <li>El email no es correcto.</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="form-group">
                     <label>Mensaje *</label>
                     <div class="input-group">
-                        <textarea class="form-control"></textarea>
+                        <!-- <textarea class="form-control"></textarea> -->
+                      {{form.content}}
                     </div>
+                    {{form.content.errors}}
                 </div>
                 <div class="text-center">
                     <input type="submit" class="btn btn-primary btn-block py-2" value="Enviar">
                 </div>
-            </form> -->
+            </form>
+
             <!-- Fin formulario de contacto -->
           </div>
         </div>
