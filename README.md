@@ -2,6 +2,6 @@
 
 <ui>
   <li>Personal web (Finished)</li>
-  <li>Enterprise web (In progress)</li>
+  <li>Enterprise web (Finished)</li>
   <li>Playground web (pending)</li>
 </ui>
