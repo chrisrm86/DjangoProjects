@@ -3,5 +3,5 @@
 <ui>
   <li>Personal web (Finished)</li>
   <li>Enterprise web (Finished)</li>
-  <li>Playground web (In process)</li>
+  <li>Playground web (In proccess)</li>
 </ui>
