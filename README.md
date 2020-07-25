@@ -1,7 +1,18 @@
-<h1><b><i>Django Projects</i></b></h1>
 
-<ui>
-  <li>Personal web (Finished)</li>
-  <li>Enterprise web (Finished)</li>
-  <li>Playground web (In proccess)</li>
-</ui>
+<img src="./Description/django-logo.png">
+
+# DJANGO PROJECTS
+
+Web Projects based on Udemy Django course by Professor Hector Costa
+
+## Installation
+
+- You must have Python installed in your computer.
+
+- Use the package manager [pip](https://pip.pypa.io/en/stable/).
+
+- Install the required packages through requirements.txt file.
+
+```bash
+pip install -r requirements.txt
+```
