@@ -3,7 +3,7 @@
 
 # DJANGO PROJECTS
 
-Web Projects based on Udemy Django course by Professor Hector Costa
+Web Projects based on Udemy Django course <!--by Professor Hector Costa-->
 
 ## Installation
 
@@ -16,3 +16,8 @@ Web Projects based on Udemy Django course by Professor Hector Costa
 ```bash
 pip install -r requirements.txt
 ```
+## Projects
+
+* Web personal
+* Web empresarial
+* Web playground
