@@ -20,4 +20,4 @@ pip install -r requirements.txt
 
 * Web personal
 * Web empresarial
-* Web playground
+* Web playground (In progress)
