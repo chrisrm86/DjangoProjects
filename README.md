@@ -7,7 +7,7 @@ Web Projects based on Udemy Django course <!--by Professor Hector Costa-->
 
 ## Installation
 
-- You must have Python installed in your computer.
+- You must have Python 3.4 or higher installed in your computer.
 
 - Use the package manager [pip](https://pip.pypa.io/en/stable/).
 
